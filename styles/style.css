@@ -39,49 +39,39 @@ body
 
 
 
-section
-{
-    text-align: center;
-    margin: 10px;
-    padding: 20px;
-    border: 1px;
-}
-
-.artwork
-{
-  
-     text-align: center;
-    margin: 10px;
-    padding: 20px;
-    border: 1px;
-}
-
-.supplies
-{
-  
-     text-align: center;
-    margin: 10px;
-    padding: 20px;
-    border: 1px;
-}
-
 section h1
 {
     
-    text-align: center;
+    
     color: #0f0f0f;
     font-family: monospace;
-    
+     margin-left: 150px;
+    padding: 2px;
 }
 
 
 
 section h2 
 {
-    text-align: center;
+    text-align: left;
     font-family: monospace;
-    margin: 10px;
+    margin-left: 800px;
     padding: 2px;
+    
+}
+
+.artwork
+{
+    margin-left: 12px;
+    height: 350px;
+    
+}
+
+.supplies
+{
+    margin-top: 125px;
+    margin-left: -639px; 
+    
     
 }
 
@@ -92,9 +82,10 @@ aside h2
 
 aside{
     border: 1px solid #1b9582 ;
-    width: 15%; 
+    width: 10%; 
     float: left;
-    margin-top: 0px;
+    margin-top: -427px;
+    height: 425px;
 }
 
 aside ul li
@@ -111,11 +102,313 @@ aside ul li a
    
 }
 
+
+
 Footer{
     background-color: #1b9582;
     padding: 10px;
+    margin-top: 850px;
+    
+    
 }
 footer p{
     text-align: center;
     color: white;
+}
+
+/* css came from w3schools */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin-left: 250px;;
+  text-align: center;
+  font-family: arial;
+  padding: 10px;
+  margin-top: 
+}
+
+
+.price {
+  color: grey;
+  font-size: 22px;
+    text-align: center;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color:#1b9582 ;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+/*horse and sketchpad*/
+.card_2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin-left: 665px;
+  margin-top: -427px;
+  text-align: center;
+  font-family: arial;
+        padding: 10px;
+}
+
+.price_2 {
+  color: grey;
+  font-size: 22px;
+}
+
+.card_2 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #1b9582 ;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card_2 button:hover {
+  opacity: 0.7;
+}
+
+
+.card_3{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin-left: 1080px;
+  margin-top: -427px;
+  text-align: center;
+  font-family: arial;
+        padding: 10px;
+}
+
+.price_3 {
+  color: grey;
+  font-size: 22px;
+}
+
+.card_3 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #1b9582;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card_3 button:hover {
+  opacity: 0.7;
+}
+
+
+.card_4{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin-left: 1500px;
+  margin-top: -427px;
+  text-align: center;
+  font-family: arial;
+        padding: 10px;
+}
+
+.price_4 {
+  color: grey;
+  font-size: 22px;
+}
+
+.card_4 button {
+  border: none;
+  outline: 0;
+  padding: 10px;
+  color: white;
+  background-color: #1b9582;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card_4 button:hover {
+  opacity: 0.7;
+}
+
+
+.card h1
+{
+    margin-left: -10px;
+}
+
+.card_2 h1
+{
+     margin-left: -10px;
+}
+
+.card_3 h1
+{
+     margin-left: -10px;
+}
+
+.card_4 h1
+{
+     margin-left: -10px;
+}
+
+
+/* css for form */
+.required
+{
+    font-weight: bold;
+    color: red;
+}
+
+
+.form
+{
+    border: 1px solid #1b9582;
+    background-color: white;
+    margin: 100px;
+    height: 800px;
+    
+}
+
+form
+{
+    margin: 20px;
+}
+
+
+input
+{
+    margin-left: 1em;
+    margin-bottom: .5em;
+    width: 220px;
+}
+
+
+
+input [type="radio"]
+{
+    width: 10px;
+}
+
+input[type="checkbox"]
+{width: 15px;}
+
+
+
+fieldset
+{
+    margin-left: 100px;
+    
+}
+
+input[type="submit"]
+{
+    margin-top: .5em;
+    width: 8em;
+    Background-color: #1b9582;
+    border: 2px solid black;
+    margin-left: 100px
+}
+
+
+input[type="reset"]
+{
+    margin-top: .5em;
+    width: 8em;
+    Background-color: #1b9582 ;
+    border: 2px solid black;
+    margin-left: 90px;
+    text-decoration-color: white;
+}
+
+
+header p
+{
+    position: relative;
+    top: 18px;
+    font-style: italic;
+    text-align: center;
+}
+
+
+/* video */
+iframe
+{
+    float: left;
+    margin-left: 5px;
+    width: 550px;
+    height: 350px;
+    margin-top: 330px;
+    
+}
+
+
+.col_detail
+{
+    margin-left: 566px;
+    margin-top:  -250px;
+    column-count: 2;
+    column-rule: 1px solid #1b9582;
+    column-gap: 50px;
+    padding: 1px;
+}
+
+.col_detail_2 
+{
+    
+    margin-left: 1210px;
+    margin-top:  -250px;
+    column-count: 2;
+    column-rule: 1px solid #1b9582;
+    column-gap: 50px;
+    padding: 1px;
+
+}
+    
+    
+
+
+.map {
+     margin-top: -350px;
+    margin-left: 93px;
+}
+
+
+
+#myInput {
+    margin-left: 18px;
+}
+
+
+}
+
+
+.gallery
+{
+   margin-right: -550px; 
+}
+
+
+
+
+
+
+
+footer_form {
+    
 }
