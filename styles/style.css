@@ -350,10 +350,12 @@ header p
 iframe
 {
     float: left;
-    margin-left: 5px;
+    margin-left: 12px;
     width: 550px;
     height: 350px;
     margin-top: 330px;
+    border: 1px;
+    
     
 }
 
@@ -383,32 +385,13 @@ iframe
     
 
 
+
+
+
+
+
+
 .map {
-     margin-top: -350px;
-    margin-left: 93px;
-}
-
-
-
-#myInput {
-    margin-left: 18px;
-}
-
-
-}
-
-
-.gallery
-{
-   margin-right: -550px; 
-}
-
-
-
-
-
-
-
-footer_form {
-    
+    float: right;
+    margin-left: -350px;
 }
